@@ -7,6 +7,8 @@ COPY . /app/
 # Change the working directory
 WORKDIR /app
 
+ARG GOOGLE_CLOUD_PROJECT=roidtc-oct-user500
+
 # Install dependencies.
 RUN npm install
 
